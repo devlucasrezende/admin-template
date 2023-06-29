@@ -1,4 +1,6 @@
+import Conteudo from "../components/template/Conteudo";
 import Layout from "../components/template/Layout";
+import useAppData from "../data/hook/useAppData";
 
 export default function Notificacoes() {
   return (
@@ -6,7 +8,7 @@ export default function Notificacoes() {
       titulo="Notificações"
       subtitulo="Aqui você irá gerenciar suas notificações"
     >
-      <h3>Conteúdo!!!!!</h3>
+      <h3>Aqui você irá ver suas notificações</h3>
     </Layout>
   );
 }
