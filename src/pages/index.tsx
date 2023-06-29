@@ -5,5 +5,5 @@ export default function Home() {
     <Layout titulo="Página Inicial" subtitulo="Em construção">
       <h3>Conteúdo</h3>
     </Layout>
-  )
+  );
 }

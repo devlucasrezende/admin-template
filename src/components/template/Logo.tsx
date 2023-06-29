@@ -1,14 +1,16 @@
-import Link from "next/link"
+import Link from "next/link";
 
 export default function Logo() {
   return (
     <div>
       <Link href={"/"}>
-        <div className={`
+        <div
+          className={`
         flex flex-col items-center justify-center
         h-12 w-12 rounded-full
         bg-white 
-      `}>
+      `}
+        >
           <div className={`h-3 w-3 rounded-full bg-red-600 mb-0.5`} />
           <div className={`flex mt-0.5`}>
             <div className={`h-3 w-3 rounded-full bg-yellow-500 mr-0.5`} />
@@ -17,5 +19,5 @@ export default function Logo() {
         </div>
       </Link>
     </div>
-  )
+  );
 }

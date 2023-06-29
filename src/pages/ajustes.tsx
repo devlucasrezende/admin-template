@@ -5,5 +5,5 @@ export default function Ajustes() {
     <Layout titulo="Ajustes" subtitulo="Aqui você irá gerenciar seus ajustes">
       <h3>Conteúdo!</h3>
     </Layout>
-  )
+  );
 }
