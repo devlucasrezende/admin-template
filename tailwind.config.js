@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     extend: {},
   },
+  safelist: [{ pattern: /^h-/ }, { pattern: /^w-/ }],
   variants: {
     extends: {},
   },

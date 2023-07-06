@@ -23,7 +23,7 @@ export default function BotaoAlterarTema(props: BotaoAlterarTemaProps) {
         bg-white text-yellow-600 w-6 h-6 rounded-full
       `}
       >
-        {IconeSol(2)}
+        {IconeSol(6)}
       </div>
       <div
         className={`
@@ -57,7 +57,7 @@ export default function BotaoAlterarTema(props: BotaoAlterarTemaProps) {
         w-6 h-6 rounded-full
       `}
       >
-        {IconeLua(2)}
+        {IconeLua(6)}
       </div>
     </div>
   );

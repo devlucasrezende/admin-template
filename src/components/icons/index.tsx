@@ -68,7 +68,7 @@ export const IconeSair = (
   </svg>
 );
 
-export const IconeSol = (tamanho = 6) => (
+export const IconeSol = (tamanho: number) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     className={`h-${tamanho} w-${tamanho}`}
@@ -85,7 +85,7 @@ export const IconeSol = (tamanho = 6) => (
   </svg>
 );
 
-export const IconeLua = (tamanho = 6) => (
+export const IconeLua = (tamanho: number) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     className={`h-${tamanho} w-${tamanho}`}
